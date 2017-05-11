@@ -2,3 +2,7 @@
 	border: 1px solid black;
 	min-height: 300px;
 }
+
+.selected {
+	border: 5px dotted green;
+}

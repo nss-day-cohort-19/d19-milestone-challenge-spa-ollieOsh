@@ -4,6 +4,13 @@ var Carlot = (function(ogLot) {
 		let carCards = document.getElementsByClassName('card');
 
 		console.log(carCards);
+
+		for(var i = 0; i < carCards.length; i++) {
+			carCards[i].addEventListener('click', function(event) {
+				CarLot.thickReset(carCards);
+				CarLot.thickness();
+			})
+		}
 	}
 	return ogLot;
 })(CarLot)
