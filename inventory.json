@@ -27,6 +27,27 @@
       "year": "2012",
       "price": "21950",
       "description": "Jesus Christ! I'm not even sure how we got our hands on this beauty. Seriously. Wow. Like it's actually crazy."
+    },
+    {
+      "make": "Toyota",
+      "model": "Camry",
+      "year": "2009",
+      "price": "12999",
+      "description": "Absolutely gorgeous Toyota Camry in near mint condition. You'll go kookoo for these cocoa puffs!"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "year": "1984",
+      "price": "879",
+      "description": "Yeah. I mean... You get what you pay for"
+    },
+    {
+      "make": "Honda",
+      "model": "Accord",
+      "year": "2012",
+      "price": "21950",
+      "description": "Jesus Christ! I'm not even sure how we got our hands on this beauty. Seriously. Wow. Like it's actually crazy."
     }
   ]
 }

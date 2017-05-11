@@ -7,15 +7,18 @@ function populatePage (inventory) {
 		carStr = `<div class="row">`;
 
 	inventory.forEach(function(car, index) {
-  	carStr +=
+		let price = Number(car.price).toLocaleString('en-IN', { style: 'currency', currency: 'USD'});
+
+  		carStr +=
 	  	`
 	  	<div class="card col-sm-4">
 		  	<div class="wrapper">
 		  		<h2>${car.year} ${car.make} ${car.model}</h2>
 		  		<p>${car.description}</>
+		  		<h3 class="price">${price}</h3>
 	  		</div>
 	  	</div>`;
-	console.log(counter);
+
 	if (counter % 3 === 0) {
 		console.log("third is turd");
 

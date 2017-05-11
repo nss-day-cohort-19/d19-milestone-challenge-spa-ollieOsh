@@ -9,7 +9,21 @@ var Carlot = (function(ogLot) {
 
 	ogLot.thickness = function() {
 		console.log('thickness');
-		event.currentTarget.classList.add('selected');
+
+		let car = event.currentTarget;
+
+		car.classList.add('selected');
+
+		let input = document.getElementById('input');
+
+		input.value = '';
+		input.focus();
+		input.addEventListener('keyup', function() {
+			if(car.classList.contains('selected')) {
+				car.childNodes[1].childNodes[3].innerHTML = input.value;
+			}
+
+		})
 	}
 	return ogLot;
 })(CarLot)
