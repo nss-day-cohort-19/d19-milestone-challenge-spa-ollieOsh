@@ -4,10 +4,10 @@
 	position: relative;
 }
 
-.selected {
+/*.selected {
 	border: 5px dotted green;
 	background-color: lightgray;
-}
+}*/
 
 .price {
 	position: absolute;

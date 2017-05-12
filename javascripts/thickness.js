@@ -3,7 +3,7 @@ var Carlot = (function(ogLot) {
 		console.log('thickReset');
 
 		for(var i = 0; i < carCards.length; i++) {
-			//carCards[i].classList.remove('selected');
+			carCards[i].classList.remove('selected');
 			carCards[i].style.backgroundColor = "white";
 			carCards[i].style.border = "1px solid black";
 		}
@@ -14,7 +14,7 @@ var Carlot = (function(ogLot) {
 
 		//let car = event.currentTarget;
 
-		//car.classList.add('selected');
+		car.classList.add('selected');
 
 		car.style.backgroundColor = color;
 		car.style.border = "4px solid black";
