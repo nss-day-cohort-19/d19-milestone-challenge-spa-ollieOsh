@@ -33,7 +33,6 @@ function populatePage (inventory) {
   </div>`;
 
   main.innerHTML = carStr;
-  console.log("populate car", carStr);
   // Now that the DOM is loaded, establish all the event listeners needed
   CarLot.activateEvents();
 }
@@ -41,5 +40,3 @@ function populatePage (inventory) {
 // Load the inventory and send a callback function to be
 // invoked after the process is complete
 CarLot.loadInventory(populatePage);
-console.log(CarLot);
-//populatePage(CarLot.getInventory());

@@ -8,7 +8,7 @@ var Carlot = (function(ogLot) {
 		for(var i = 0; i < carCards.length; i++) {
 			carCards[i].addEventListener('click', function(event) {
 				CarLot.thickReset(carCards);
-				CarLot.thickness();
+				CarLot.thickness(event.currentTarget, 'lightgray');
 			})
 		}
 	}
